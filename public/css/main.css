@@ -1,0 +1,309 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+* {
+	color: #000;
+	font-family: 'Montserrat';
+    font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: #eee;
+	color: #000;
+  }
+
+  .navbar a{
+    padding: 19px;
+  }
+
+  a{
+	text-decoration: none;
+	color: #fff;
+  }
+
+  .date{
+	color: #e4bb23;
+	font-size: 10pt;
+  }
+  p{
+	font-size: 10pt;
+  }
+  .wrapper{   
+	width: 100%;
+	margin: 10px;
+    max-width: 920px;
+	margin: 0 auto; 
+	margin-top: 20px;
+	margin-left: 200px;
+  }
+
+  .wrapper ul{
+	list-style: none;
+	position: relative;
+	text-align: center; 
+	border-bottom: solid 1px #c0c0c0;
+	width: 90%;
+    max-width: 960px;
+	margin: 10px;
+	margin-left: 50px;
+  }
+  .wrapper li{ 
+	font-size: 9pt;
+	display: inline;
+	padding: 10px;
+
+  }
+  .wrapper nav a:hover{
+	  border-bottom: 1px solid #e4bb23;
+  }
+  .wrapper nav ul{
+	list-style-type: none;
+	margin-bottom: 20px;
+    padding: 15px;
+}
+
+.wrapper nav a{
+	font-weight: 700;
+    text-decoration: none;
+    text-align: left;
+    color: #e4bb23;
+	padding: 15px;
+	border-bottom: #606060 2px;
+}
+  
+  .mad{
+	  color: #fff;
+	  margin-top: 80px;
+  }
+
+  .logo{
+	  margin-top: 10px;
+  }
+  
+  .navbar-menu {
+	  margin-top: -60px;
+	
+  }
+  
+  .navbar-menu ul {
+	float: center; 
+	margin-left: 200px;
+	font-size: 12pt;
+	list-style: none;
+	display: flex;
+  }
+  
+  .navbar-menu li {
+	margin: 0px 5px;
+	cursor: pointer;
+	font-weight: 600;
+}
+  .navbar-menu a{
+	  text-decoration: none;
+  }
+  .navbar-menu a:hover{
+	color: #e4bb23;  
+  }
+  
+  .header {
+	background: url(../img/capa-madmax2.jpg) no-repeat;
+	background-size: cover;
+	height: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	opacity: 2;
+	position: relative;
+  }
+  
+  .navbar-main{
+	background-color: rgba(255, 255, 255, 0);
+	padding: 20px 40px;
+	font-size: 30px;
+	max-width: 960px;
+	margin: 0 auto;
+	margin-left: 150px;
+  }
+  .type-item{
+	  display: inline;
+	  text-decoration: none;
+	  font-size: 8pt;
+	  word-spacing: 20pt;
+  }
+  .type-movie{
+	  margin-left: -35px;
+	  margin-top: -20px;
+  }
+  .type-item a:hover{
+	  color: #e4bb23;
+  }
+
+  .watch{
+	  color: #000;
+	  text-align: center;
+	  background-color: #e4bb23;
+	  font-size: 10pt;
+	  padding: 12px;
+	  width: 150px;
+	  border: 2px  rgba(255, 255, 255, 0) solid;
+      border-radius: 25px;
+  }
+
+  .watch i{
+	  font-size: 15pt;
+	  margin-left: 15px;
+  }
+  div.watch:hover {
+	opacity: 0.9;
+  }
+
+  .user{
+   border: 2px  rgba(255, 255, 255, 0) solid;
+   border-radius: 100px;
+   width: 50px;
+   height: 50px;
+   float: right;
+   margin-top: -50px;
+   margin-right: 150px;
+  }
+  .username{
+	color: #fff;
+	font-size: 14px;
+	float: right;
+	margin-top: -35px;
+	margin-right: -160px
+  }
+
+.card-title{
+	font-style: bold;
+	font-size: 8pt;
+	margin-left: -100px;
+	margin-top: -5px;
+}
+
+  .cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+    max-width: 960px;
+	margin: 0 auto; 
+	margin-bottom: 40px;
+  }
+  
+  .card {
+	width: 200px;
+	margin: 10px;
+	box-shadow: 0px 1px 2px #888888;
+    border-radius: 10px ;
+  }
+  
+  .card-header img {
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+  }
+  
+  .card-body {
+	margin-top: -5px;  
+	text-align: center;
+	padding: 15px 25px;
+	background-color: #fff;
+	border: 2px rgba(255, 255, 255, 0) solid;
+	border-radius: 0px 0px 10px 10px;
+  }
+  
+  .card-content h1 {
+	font-style: bold;
+	font-size: 12px;
+	text-align: left;
+	margin-left: -20px;
+	margin-top: 0px;
+  }
+  
+  .card-content h2 {
+	margin-top: 5px;
+	font-size: 12px;
+	font-weight: 100;
+	color: #e4bb23;
+	margin-left: -100px;
+  }
+  
+  .card-content p {
+	font-size: 12px;
+  }
+  
+  .card-footer {
+	display: flex;
+	font-size: 12px;
+	color: #000;
+  }
+  
+  .card-footer a {
+	text-decoration: none;
+	color: grey;
+	margin: 0 auto;
+	margin-left: -20px;
+  }
+
+  .level{
+	font-style: bold;
+	font-size: 12pt;
+  }
+  .social{
+	float: right;
+	margin-right: 190px;
+	margin-top: -30px;
+  }
+  
+  .social i{
+	margin-right: 30px;
+	font-size: 20pt;
+	color: #c0c0c0;
+  }
+  #twitter:hover{color: #08a0e9;}
+  #facebook:hover{color: #3b5998;}
+  #insta:hover{color: #dd2a7b;}
+
+
+
+  .heart i{
+	color: #c0c0c0;
+	font-size: 15pt;
+  }
+
+  .heart i:hover{
+	color: red;
+  }
+  .foo-card p{
+	width: 100%;
+    max-width: 860px;
+	margin: 0 auto;
+	color: #000;
+	font-size: 12pt;
+	font-weight: 700;
+  }
+
+  .foo-img{
+	margin-left: 220px;
+  }
+
+  footer {
+	background-color: #fff;
+	padding: 30px 30px 20px; 
+  }
+  
+  footer a {
+	font-size: 14px;
+	margin: 0;
+	color: #000;
+	text-align: right;
+	float: right;
+	margin-top: -30px;
+	margin-right: -30px;
+	padding: 8px;
+  }
+
+ 
